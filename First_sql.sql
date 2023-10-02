@@ -1,1 +1,1 @@
-SELECT * FROM world.city
+SELECT name, population FROM world.city
