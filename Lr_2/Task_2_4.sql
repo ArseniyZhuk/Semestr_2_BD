@@ -1,4 +1,4 @@
 /*Выбрать объекты, пользование которых платно для членов клуба*/
 USE `cd`;
-SELECT * FROM facilities
+SELECT facility FROM facilities
 WHERE membercost != 0;

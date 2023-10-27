@@ -1,4 +1,4 @@
 /*Выбрать объекты, включаящие слово 'Tennis'.*/
 USE `cd`;
-SELECT * FROM facilities
+SELECT facility FROM facilities
 WHERE facility LIKE '%Tennis%';
